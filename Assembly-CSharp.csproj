@@ -115,6 +115,8 @@
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Counters\CuttingCounterVisual.cs" />
     <Compile Include="Assets\Scripts\KitchenGameMultiplayer.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\KitchenObjectListSO.cs" />
+    <Compile Include="Assets\Scripts\FollowTransform.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
