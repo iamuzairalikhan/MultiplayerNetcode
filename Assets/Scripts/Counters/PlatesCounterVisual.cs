@@ -30,7 +30,7 @@ public class PlatesCounterVisual : MonoBehaviour {
 
     private void PlatesCounter_OnPlateSpawned(object sender, System.EventArgs e) {
         Transform plateVisualTransform = Instantiate(plateVisualPrefab, counterTopPoint);
-
+        Debug.Log("plate spawn on client event");
         float plateOffsetY = .1f;
         plateVisualTransform.localPosition = new Vector3(0, plateOffsetY * plateVisualGameObjectList.Count, 0);
 

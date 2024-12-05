@@ -15,11 +15,13 @@ public class FollowTransform : MonoBehaviour
 
     private void LateUpdate()
     {
-        if(!targetTransform)
+        if(targetTransform == null)
         {
-            transform.position = targetTransform.position;
-            transform.rotation = targetTransform.rotation;
+            return;
         }
+
+        transform.position = targetTransform.position;
+        transform.rotation = targetTransform.rotation;
     }
 
 

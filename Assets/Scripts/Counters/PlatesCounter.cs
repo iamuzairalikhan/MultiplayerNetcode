@@ -38,12 +38,14 @@ public class PlatesCounter : BaseCounter {
     private void SpawnPlateServerRpc()
     {
         SpawnPlateClientRpc();
+        Debug.Log("Plate spawner server");
     }
 
     [ClientRpc]
     private void SpawnPlateClientRpc()
     {
         platesSpawnedAmount++;
+        Debug.Log("Plate spawner client");
 
         OnPlateSpawned?.Invoke(this, EventArgs.Empty);
     }
