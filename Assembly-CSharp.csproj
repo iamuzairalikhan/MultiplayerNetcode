@@ -117,6 +117,9 @@
     <Compile Include="Assets\Scripts\FollowTransform.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Counters\CuttingCounterVisual.cs" />
+    <Compile Include="Assets\Scripts\UI\WaitingForOtherPlayersUI.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseMultiplayerUI.cs" />
+    <Compile Include="Assets\Scripts\UI\HostDisconnectUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
